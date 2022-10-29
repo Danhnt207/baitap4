@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Classfield</title>
+    <script src="https://kit.fontawesome.com/6c675f6dcf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/onlineclassfield.css">
+</head>
+<body>
+    <form action="#" class="container">
+        <header>
+            Online Classfields Search Form
+        </header>
+        <hr>
+        <p class="label">
+            1) Search for a classfield in the follwing sections:
+        </p>
+        <div class="radio">
+            <div class="col">
+                <div class="row">
+                    <input type="radio" name="seacrh" id="">  <span>Employment</span>
+                </div>
+                <div class="row">
+                    <input type="radio" name="seacrh" id=""> <span>For Sale</span>
+                </div>
+                <div class="row">
+                    <input type="radio" name="seacrh" id=""> <span>Housing</span>
+                </div>
+                
+            </div>
+            <div class="col">
+                <div class="row">
+                    <input type="radio" name="seacrh" id="">  <span>Personal</span>
+                </div>
+                <div class="row">
+                    <input type="radio" name="seacrh" id=""> <span>Miscellanecus</span>
+                </div>
+                <div class="row">
+                    <input type="radio" name="seacrh" id=""> <span>All of the above</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        <p class="label">
+            2) Search the following publications:
+        </p>
+        <div class="checkbox">
+            <div class="col">
+                <div class="row">
+                    <input type="checkbox" name="" id=""> <span>Midwest times</span>
+                </div>
+                <div class="row">
+                    <input type="checkbox" name="" id=""> <span>Great Lakes Classfields</span>
+                </div>
+                
+            </div>
+            <div class="col">
+                <div class="row">
+                    <input type="checkbox" name="" id=""> <span>Modern News</span>
+                </div>
+                <div class="row">
+                    <input type="checkbox" name="" id=""> <span>Middleton Daily</span>
+                </div>
+                
+            </div>
+            <div class="col">
+                <div class="row">
+                    <input type="checkbox" name="" id=""> <span>Employment Today</span>
+                </div>
+                <div class="row">
+                    <input type="checkbox" name="" id=""> <span>Cashtown Daily News</span>
+                </div>
+                
+            </div>
+        </div>
+        <p class="label ">
+            3) From to 
+            <input type="date"> to <input type="date" name="" id="">
+        </p>
+        <p class="label">
+            4) Enter a few keywords to describe the classfield.
+        </p>
+        <input type="text" class="enter">
+        <p class="label">
+            5) Click one of the options below:           
+        </p>
+        <div class="button">
+            <button type="button" class=" search click" onclick="myFunction()" >
+                <i class="fa-solid fa-check"></i>
+                <span>Search</span>
+            </button>
+            <button type="button" class=" help click" onclick="location.href='https://www.facebook.com/help'" >
+                <i class="fa-solid fa-question"></i>
+                <span>Help</span>
+            </button>
+            <button type="reset" class=" cancel click">
+                <i class="fa-solid fa-xmark"></i>
+                <span>Cancel</span>
+            </button>
+        </div>
+    </form>
+    <script>
+        var myFunction = function() {
+            alert("Không có kết quả tìm kiếm!")
+        }
+    </script>
+</body>
+</html>

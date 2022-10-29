@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.container {
+    background-color: #008080;
+    margin: 0 400px;
+    padding: 8px;
+}
+.header {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 12px 0;
+    align-items: center;
+}
+
+label {
+    color: #fff;
+    margin: 0 4px;
+}

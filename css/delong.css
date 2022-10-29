@@ -1,0 +1,38 @@
+.container {
+    background: #cff;
+    margin: 0 400px;
+    padding: 12px;
+}
+.header {
+    text-align: center;
+}
+
+.heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+table,  th, td {
+    border: 1px solid #000;
+}
+
+.row {
+    display: flex;
+    margin: 12px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+#Amount {
+    width: 50px;
+}
+input {
+    margin: 0 8px;
+}
+
+.short {
+    width: 70px;
+}

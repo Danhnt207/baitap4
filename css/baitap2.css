@@ -1,0 +1,184 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+* {
+    font-family: 'poppings', sans-serif ;
+}
+
+#form1 {
+    width: 30%;
+    margin-right: 50px;
+    border: 1px solid #000;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+#form2 {
+    border: 1px solid #000;
+    padding: 20px 0;
+}
+.header {
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 1px solid #555;
+    display: block;
+    width: fit-content;
+    padding: 12px 0;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    width: 330px;
+}
+.row-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.checkbox-des {
+    margin-left: 8px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.main-form__row {
+    display: flex;
+    
+}
+
+.main-form__row--left {
+    flex-basis: 50%;
+    margin-right: 12px;
+}
+
+.main-form__row--right {
+    flex-basis: 50%;
+}
+
+.main-form__row-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+}
+textarea {
+    width: 100%;
+}
+
+.sub-title {
+    font-size: 14px;
+    color: #555;
+    margin-top: 6px;
+}
+
+.raido {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #03431e;
+    border-radius: 3px;
+    padding: 6px 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.form2-heading p {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+.form2-heading span {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form2-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form2-row {
+    display: flex;
+}
+
+.form-row-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.form-row-item input {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 20px;
+}
+small {
+    color: #555;
+    margin-top: 4px;
+}
+
+#student {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 20px;
+    width: 200px;
+}
+
+.select {
+    display: flex;
+    border: 1px solid #ccc;
+    width: 200px;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.select span {
+    color: #555;
+    font-size: 14px;
+}
+
+select {
+    border: none;
+}
+
+.form2-button {
+    background: green;
+}
+
+.form2-main {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 12px 0;
+}
+
+.form2-title:nth-child(1) {
+    margin-top: 0;
+}
+
+.container {
+    padding: 0 20px;
+}

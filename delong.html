@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeLong Enterprise</title>
+    <link rel="stylesheet" href="./css/delong.css">
+</head>
+<body>
+    <form action="#" class="container">
+        <div class="header">
+            <img src="./Images/Cau3/DeLong.jpg" alt="">
+        </div>
+        <p class="heading">
+            Travel Expense Report
+        </p>
+        <hr>
+        <div class="row">
+            <label for="">1) First Name:</label>
+            <input type="text" name="" id="">
+            <label for="">Last Name:</label>
+            <input type="text" name="" id="">
+        </div>
+        <div class="row">
+            <label for="" >2) Social Security Number:</label>
+            <input type="text" class="short">
+        </div>
+        <div class="row">
+            3) Department:
+            <label for=""></label>
+            <select name="" id="">
+                <option value="">[Accounting]</option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="">4) Describe the purpose of your trip.</label>
+        </div>
+        <div class="row">
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div>
+        <div class="row">
+            <label for="">5) Intemize your travel expenses</label>
+        </div>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Desription</th>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><select name="" id=""><option value="">Meal</option></select></td>
+                <td><input type="number" name="" id="Amount"></td>
+            </tr>
+            <tr>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><select name="" id=""><option value="">Meal</option></select></td>
+                <td><input type="number" name="" id="Amount"></td>
+            </tr>
+            <tr>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><select name="" id=""><option value="">Meal</option></select></td>
+                <td><input type="number" name="" id="Amount"></td>
+            </tr>
+            <tr>
+                <td><input type="date" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><select name="" id=""><option value="">Meal</option></select></td>
+                <td><input type="number" name="" id="Amount"></td>
+            </tr>
+        </table>
+        <div class="row">
+            <label for="">6) Have you submitted your receipt?</label>
+            <div class="col"><input type="radio"><span>Yes</span></div>
+            <div class="col"><input type="radio"><span>No</span></div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Submit travel expenses" onclick="myFunction()">
+            <input type="reset" value="Reset">
+        </div>
+        <div class="row">
+            Question? Contact Debbile Larson in Accounting (exr. 2150).
+        </div>
+    </form>
+    <script>
+        function myFunction() {
+            alert("Submitted!");
+        }
+    </script>
+</body>
+</html>
